@@ -1,0 +1,11 @@
+{
+     "android": {
+      "release": {
+        "keystore": "f:\\Personal\\Disc Golf\\my-mdg.keystore",
+        "storePassword": "Rumz_001",
+        "alias": "my-mdg",
+        "password": "Rumz_001",
+        "keystoreType": ""
+      }
+     }
+ }

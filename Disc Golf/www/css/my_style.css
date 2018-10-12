@@ -1,0 +1,433 @@
+﻿@font-face {
+    font-family: "customfont";
+    src: url("../res/Roboto-Regular.ttf");   
+        
+    }
+
+    td div.ui-input-text {
+        margin: 0px !important;
+    }
+
+    /*.ui-li-desc { white-space: normal; !important}*/
+    .ui-li-desc { white-space: normal !important}
+
+    .course-button {         
+        width: 80%
+    }
+
+    div.container4 { 		
+    text-align: center }
+
+    .disabled{
+        pointer-events:none;
+        opacity:0.4;
+    }
+
+	.popup
+	{
+		width: 90vw;
+	}
+	
+	html, body, option
+	{
+		height: 100%;
+		width: 100%;	
+        font-family: "customfont";
+        background-color: black;
+	}
+
+    td {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+	span, div, label, input, h4
+	{
+	    font-family: "customfont" !important;
+	}
+	
+	.MainMenu
+	{
+        /*background-image: url(../images/mainmenu.png);*/
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	
+	.ui-content-no-padding { 
+		padding: 0 !important;
+		margin: 0px !important;		
+		width: 100% !important;
+	}
+	
+	embed
+	{
+	    height: 100% !important;
+		width: 100% !important;
+	}
+	
+	.Map
+	{
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+	}
+	
+	.image
+	{
+		position:relative;
+		align: center;
+	}
+
+	.ui-input-text #myinput 
+	{
+	   margin:0;
+	}
+	
+	.ui-listview , ui-li
+	{
+		white-space: normal !important;
+	}
+
+.FiveColumnNoGap {
+    -webkit-column-count: 5;
+    column-count: 5;
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;
+}
+
+.TwoColumnNoGap {
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;    
+}
+
+.nameheight {
+    max-height: 2.5em;
+    height: 2.5em;
+    min-height: 2.5em;
+}
+
+.totalheight {
+    max-height: 3em;
+    height: 3em;
+    min-height: 3em;
+}
+
+.TwoColumn {
+    /*margin-top: 10px;		*/
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10vw;
+}
+
+.ui-flipswitch .ui-flipswitch-off {    
+    text-indent: 0.5em;
+}
+
+.ui-flipswitch .ui-btn.ui-flipswitch-on {    
+    text-indent: -3em;
+}
+    
+
+.dashboardPage {
+    padding: 0vw !important;
+}
+
+.dashboard1Column {
+    -webkit-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+}
+
+.dashboard2Column {    
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+}
+
+.dashboardwidetile {
+    width: 98vw !important;
+    height: 48vw !important;
+    border-radius: 10px 10px 10px 10px !important;    
+    background-color: white;
+    /*border: 1px solid black !important;*/
+    overflow: hidden; /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Deprecated Firefox */
+    -moz-column-break-inside: avoid; /* Current Firefox */
+    column-break-inside: avoid;
+    break-inside: avoid; /* IE 10+ */
+    break-inside: avoid-column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dashboardtile {
+    width: 48vw !important;
+    height: 48vw !important;
+    max-width: 48vw !important;
+    max-height: 48vw !important;
+    border-radius: 10px 10px 10px 10px !important;
+    background-color: white;
+    overflow: hidden; /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Deprecated Firefox */
+    -moz-column-break-inside: avoid; /* Current Firefox */
+    column-break-inside: avoid;
+    break-inside: avoid; /* IE 10+ */
+    break-inside: avoid-column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dashboardtexttile {
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+}
+
+.dashboardtexttileheader {
+    line-height: 8vw;
+    font-size: 16px;
+    font-size: 5vw;
+    border-bottom: 1px solid #EEE;    
+}
+
+.dashboardtexttileheaderwide {
+    line-height: 8vw;
+    font-size: 16px;
+    font-size: 5vw;
+    border-bottom: 1px solid #EEE;    
+}
+
+.dashboardtexttilebody {
+    line-height: 40vw;
+    font-size: 200px;
+    font-size: 20vw;
+}
+
+.dashboardtilebody {
+    width: 48vw !important;
+    height: 38vw !important;
+    line-height: 38vw;
+    font-size: 200px;
+    font-size: 20vw;
+}
+
+.dashboardtilebodywide {
+    width: 98vw !important;
+    height: 38vw !important;
+    line-height: 38vw;
+    font-size: 200px;
+    font-size: 20vw;
+}
+
+
+
+.dashboardtile_small {
+    width: 23vw !important;
+    height: 23vw !important;
+    border-radius: 10px 10px 10px 10px !important;    
+    background-color: white;    
+    overflow: hidden; /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Deprecated Firefox */
+    -moz-column-break-inside: avoid; /* Current Firefox */
+    column-break-inside: avoid;
+    break-inside: avoid; /* IE 10+ */
+    break-inside: avoid-column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dashboardtile_header_small_text {
+    line-height: 5vw;
+    font-size: 16px;
+    font-size: 2vw;
+    border-bottom: 1px solid #EEE;    
+}
+
+.dashboardtile_body_small {
+    width: 23vw !important;
+    height: 18vw !important;
+    line-height: 18vw;
+    font-size: 100px;
+    font-size: 10vw;
+}
+
+.weather_body_small {
+    font-size: 45px !important;
+    font-size: 5vw !important;
+    text-transform: none !important;
+}
+
+.dashboardtile_header_small {
+    width: 23vw !important;
+    height: 5vw !important;
+    line-height: 5vw;
+    font-size: 16px;
+    font-size: 3vw;
+}
+
+.dashboardtile_blank_wide {
+    width: 100vw !important;
+    height: 50vw !important;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    overflow: hidden; /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Deprecated Firefox */
+    -moz-column-break-inside: avoid; /* Current Firefox */
+    column-break-inside: avoid;
+    break-inside: avoid; /* IE 10+ */
+    break-inside: avoid-column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dashboardtile_blank {
+    width: 50vw !important;
+    height: 50vw !important;  
+    padding-left: 1vw;
+    padding-top: 1vw;
+    overflow: hidden; /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Deprecated Firefox */
+    -moz-column-break-inside: avoid; /* Current Firefox */
+    column-break-inside: avoid;
+    break-inside: avoid; /* IE 10+ */
+    break-inside: avoid-column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dashboardtile_blank_small {
+    width: 25vw !important;
+    height: 25vw !important;    
+    overflow: hidden; /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Deprecated Firefox */
+    -moz-column-break-inside: avoid; /* Current Firefox */
+    column-break-inside: avoid;
+    break-inside: avoid; /* IE 10+ */
+    break-inside: avoid-column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.fivewidth {
+    min-width: 5vw !important;
+    max-width: 5vw !important;   
+}
+
+.holeinput {   
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+    .hole
+	{		
+        padding: 0 !important;
+		border-style: solid;
+		border-width: 5px 5px;
+		-moz-border-image: url(../images/scorecardbox.png) 8 8 repeat;
+		-webkit-border-image: url(../images/scorecardbox.png) 8 8 repeat;
+		-o-border-image: url(../images/scorecardbox.png) 8 8 repeat;
+		border-image: url(../images/scorecardbox.png) 8 8 fill repeat;		
+		text-align: center;			
+        vertical-align: middle;   
+		width: 8vw;	
+		height: 8vw;		
+        min-width: 8vw;	
+        max-width: 8vw;	
+        max-height: 8vw;
+	}
+
+.holechoser {
+    text-align: center;    
+    min-width: 5vw;
+    max-width: 5vw;
+}
+
+.scorecardholepar {       
+    text-align: center !important;
+    vertical-align: middle !important;           
+}
+
+    .resultPageRight
+	{
+		font-size: 1em;
+		line-height: 1.3;		
+		text-transform: none;		
+		text-align: right;
+	}
+	
+	.resultPageLeft
+	{
+		text-shadow: 0 0;
+		font-size: 1em;
+		line-height: 1.3;		
+		text-transform: none;		
+	}
+	
+	.resultPageLeftCapital
+	{
+		text-shadow: 0 0;
+		font-size: 1em;
+		line-height: 1.3;			
+		color: black;		
+	}
+
+
+.ui-header {    
+    border-left: hidden;
+    border-right: hidden;
+    border-width: 0px !important;
+}
+
+/*.ui-header-fixed {
+    top: 0px !important;
+    padding-top: 0px !important;
+}*/
+
+/*.ui-title {
+    margin: 0em 10% 0em !important;
+}*/
+
+
+.container {
+    width: 100%;    
+}
+
+.holesPanel {
+    width: 6em;    
+    float: left;
+}
+
+.statsPanel {
+    margin-left: 6em;    
+}
+
+.statsPanelHolesClosed {
+    margin-left: 0%;
+}
+
+.ui-controlgroup, fieldset.ui-controlgroup {
+    padding: 0;
+    margin: 0;
+}
+
+.weatherImage {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
