@@ -105,7 +105,9 @@
     <engine name="windows" spec="4.4.2" />
     <plugin name="cordova-plugin-appcenter-analytics" spec="^0.1.8" />
     <plugin name="cordova-plugin-appcenter-crashes" spec="^0.1.8" />
-	<platform name="android">
-		<preference name="APP_SECRET" value="73019cb4-fe69-4056-836d-bd69f4ddd21f" />
-	</platform>
+    <platform name="android">
+        <preference name="APP_SECRET" value="73019cb4-fe69-4056-836d-bd69f4ddd21f" />
+		<resource-file src="google-services.json" target="google-services.json" />
+    </platform>
+    <plugin name="cordova-plugin-appcenter-push" spec="^0.1.8" />
 </widget>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "69232925215",
+    "firebase_url": "https://manchester-disc-golf.firebaseio.com",
+    "project_id": "manchester-disc-golf",
+    "storage_bucket": "manchester-disc-golf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69232925215:android:99e3837597cfcb04",
+        "android_client_info": {
+          "package_name": "com.rumzcorp.manchesterdiscgolf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69232925215-trourdv82il5gdqg6chrdsd6gkcdafa8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWRDyIARO9D2L0fOglrSi0dUicV2WQkZs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

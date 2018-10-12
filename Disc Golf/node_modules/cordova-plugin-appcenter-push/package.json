@@ -1,0 +1,59 @@
+{
+  "_from": "cordova-plugin-appcenter-push",
+  "_id": "cordova-plugin-appcenter-push@0.1.8",
+  "_inBundle": false,
+  "_integrity": "sha512-QG5G7i+ma0LvQg0ltXoZXMxXeuyeocB4lJBObW/MmiyMDXLo1Evx7pu3f1KIxYulA72/brkCCUQV0qLceiubaA==",
+  "_location": "/cordova-plugin-appcenter-push",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-appcenter-push",
+    "name": "cordova-plugin-appcenter-push",
+    "escapedName": "cordova-plugin-appcenter-push",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-appcenter-push/-/cordova-plugin-appcenter-push-0.1.8.tgz",
+  "_shasum": "aaa779a2db8ce69582b49bb3fee08e8a674402ea",
+  "_spec": "cordova-plugin-appcenter-push",
+  "_where": "F:\\Personal\\Disc Golf\\Disc Golf",
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/appcenter-sdk-cordova/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "appcenter-crashes",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Provides Microsoft Azure App Center Push client for Cordova",
+  "homepage": "https://github.com/Microsoft/appcenter-sdk-cordova/blob/master/README.md",
+  "keywords": [
+    "microsoft",
+    "azure",
+    "app center",
+    "push",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-appcenter-push",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/appcenter-sdk-cordova.git"
+  },
+  "version": "0.1.8"
+}
