@@ -1,0 +1,59 @@
+{
+  "_from": "cordova-plugin-appcenter-shared@0.1.8",
+  "_id": "cordova-plugin-appcenter-shared@0.1.8",
+  "_inBundle": false,
+  "_integrity": "sha512-fzmApxfQkdqq/JZl/LJhSAi7DXifg4j3pIFxl1tReG/hUKnWjaXWpeFbh1VnspW/Wh9RJ8UUvC/vg6iUAdeBkA==",
+  "_location": "/cordova-plugin-appcenter-shared",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-appcenter-shared@0.1.8",
+    "name": "cordova-plugin-appcenter-shared",
+    "escapedName": "cordova-plugin-appcenter-shared",
+    "rawSpec": "0.1.8",
+    "saveSpec": null,
+    "fetchSpec": "0.1.8"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-appcenter-shared/-/cordova-plugin-appcenter-shared-0.1.8.tgz",
+  "_shasum": "0fcb44a5375d3e9ba11d7d557e3b4362855aad74",
+  "_spec": "cordova-plugin-appcenter-shared@0.1.8",
+  "_where": "F:\\Personal\\Disc Golf\\Disc Golf",
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/appcenter-sdk-cordova/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-appcenter-shared",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Provides Microsoft Azure App Center shared functionality for Cordova",
+  "homepage": "https://github.com/Microsoft/appcenter-sdk-cordova/blob/master/README.md",
+  "keywords": [
+    "microsoft",
+    "azure",
+    "app center",
+    "crashes",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-appcenter-shared",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/appcenter-sdk-cordova.git"
+  },
+  "version": "0.1.8"
+}

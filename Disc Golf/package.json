@@ -5,6 +5,9 @@
     "dependencies": {
         "cordova-android": "5.2.1",
         "cordova-ios": "4.2.0",
+        "cordova-plugin-appcenter-analytics": "^0.1.8",
+        "cordova-plugin-appcenter-crashes": "^0.1.8",
+        "cordova-plugin-appcenter-shared": "^0.1.8",
         "cordova-windows": "4.4.2"
     },
     "cordova": {
@@ -12,6 +15,10 @@
             "android",
             "ios",
             "windows"
-        ]
+        ],
+        "plugins": {
+            "cordova-plugin-appcenter-analytics": {},
+            "cordova-plugin-appcenter-crashes": {}
+        }
     }
 }

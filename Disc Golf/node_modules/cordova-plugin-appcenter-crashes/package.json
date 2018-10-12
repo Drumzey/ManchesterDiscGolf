@@ -1,0 +1,59 @@
+{
+  "_from": "cordova-plugin-appcenter-crashes",
+  "_id": "cordova-plugin-appcenter-crashes@0.1.8",
+  "_inBundle": false,
+  "_integrity": "sha512-W2uHlMn7JIoJXMw9wC458wZZBlTH4b9HIJcRM2ro6JGvcxbPYnoQmZ9dCsx/XjIMLMbegnp6z88EP8y+6faEJg==",
+  "_location": "/cordova-plugin-appcenter-crashes",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-appcenter-crashes",
+    "name": "cordova-plugin-appcenter-crashes",
+    "escapedName": "cordova-plugin-appcenter-crashes",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-appcenter-crashes/-/cordova-plugin-appcenter-crashes-0.1.8.tgz",
+  "_shasum": "058b35e9e7569b7fa9ec22ac9724bd75ea0dad05",
+  "_spec": "cordova-plugin-appcenter-crashes",
+  "_where": "F:\\Personal\\Disc Golf\\Disc Golf",
+  "author": {
+    "name": "Microsoft Corporation"
+  },
+  "bugs": {
+    "url": "https://github.com/Microsoft/appcenter-sdk-cordova/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "appcenter-crashes",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Provides Microsoft Azure App Center Crashes client for Cordova",
+  "homepage": "https://github.com/Microsoft/appcenter-sdk-cordova/blob/master/README.md",
+  "keywords": [
+    "microsoft",
+    "azure",
+    "app center",
+    "crashes",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-appcenter-crashes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/appcenter-sdk-cordova.git"
+  },
+  "version": "0.1.8"
+}
