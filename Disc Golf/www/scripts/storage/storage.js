@@ -42,6 +42,12 @@ function GetItemFromStorageWithCallBack(key, callbackFunction) {
         keyImLookingFor = key;
         NativeStorage.getItem(key, callbackFunction, FailedToGet);
     }
+    else {
+        if (key == 'mymeetups')
+            callbackFunction([]);
+        else
+            callbackFunction("test");
+    }
 }
 
 function GetItemFromStorageWithSuccessAndFailureCallBack(key, success, failure) {

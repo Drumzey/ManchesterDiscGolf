@@ -1,4 +1,5 @@
 ﻿function updateDashboard() {
+    WhoesPlayingToday();
     populateLocalWeather();
     populateNumberPanels();
     populateGraphPanels();

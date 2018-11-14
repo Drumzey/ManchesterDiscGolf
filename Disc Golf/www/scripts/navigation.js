@@ -38,6 +38,11 @@ function RoundHistory() {
     }
 }
 
+function PlayingTodayClicked() {
+    ClosePopup();
+    NavigateToInternalPage("#PlayingToday", GetMeetups);
+}
+
 function MainMenuClicked()
 {
     ClosePopup();    

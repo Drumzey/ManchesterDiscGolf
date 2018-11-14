@@ -154,6 +154,31 @@
     column-gap: 0;
 }
 
+.dashboard4Column {
+    -webkit-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+}
+
+.dashboardflattile {
+    width: 98vw !important;
+    height: 23vw !important;
+    border-radius: 10px 10px 10px 10px !important;
+    background-color: white;
+    /*border: 1px solid black !important;*/
+    overflow: hidden; /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Deprecated Firefox */
+    -moz-column-break-inside: avoid; /* Current Firefox */
+    column-break-inside: avoid;
+    break-inside: avoid; /* IE 10+ */
+    break-inside: avoid-column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .dashboardwidetile {
     width: 98vw !important;
     height: 48vw !important;
@@ -190,8 +215,8 @@
 }
 
 .dashboardtexttile {
-    text-align: center;
-    vertical-align: middle;
+    text-align: center !important;
+    vertical-align: middle !important;
     color: black;
 }
 
@@ -281,6 +306,22 @@
 .dashboardtile_blank_wide {
     width: 100vw !important;
     height: 50vw !important;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    overflow: hidden; /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Deprecated Firefox */
+    -moz-column-break-inside: avoid; /* Current Firefox */
+    column-break-inside: avoid;
+    break-inside: avoid; /* IE 10+ */
+    break-inside: avoid-column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dashboardtile_blank_wide_flat {
+    width: 100vw !important;
+    height: 25vw !important;
     padding-left: 1vw;
     padding-top: 1vw;
     overflow: hidden; /* Fix for firefox and IE 10-11  */
@@ -430,4 +471,76 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
+}
+
+.my-solo-grid .ui-block-a {
+    width: 100%
+}
+
+.my-solo-grid .ui-block-b {
+    width: 0%
+}
+
+.my-grid-meet .ui-block-a {
+    width: 50%
+}
+
+.my-grid-meet .ui-block-b {
+    width: 50%
+}
+
+.my-grid .ui-block-a {
+    width: 75%
+}
+
+.my-grid .ui-block-b {
+    width: 25%
+}
+
+/* overwrite to dates */
+div.datedropper .picker .pick-lg ul.pick-lg-b li.pick-sl {
+    font-size: 16px !important;
+}
+
+div.datedropper .picker .pick-lg ul.pick-lg-b li:before {   
+    width: 30px !important;
+    height: 30px !important;    
+}
+
+div.datedropper .picker .pick-lg ul.pick-lg-b li.contains-meetup:before {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate(-50%, -50%) scale(1);
+    background-color: aqua !important;
+}
+
+/* overwrite to calendar */
+
+.ui-cal-event {
+    width: 75% !important;
+}
+
+.ui-cal-wrapper {
+    left: 84px !important;
+    right: 12px !important;
+    top: 83px !important;
+    bottom: 12px !important;
+    overflow: hidden !important;
+}
+
+.ui-cal-timeline {
+    position: initial !important;
+}
+
+.ui-cal-date {
+    width: 100% !important
+}
+
+.ui-cal-dateline {
+    display: none !important
+}
+
+.ui-cal-dateline-fill {
+    display: none !important
 }

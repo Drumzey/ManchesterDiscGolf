@@ -14,6 +14,17 @@ function Settings_Friends() {
     NavigateToInternalPage("#Friends");
 }
 
+function Settings_Help() {
+    GetItemFromStorageWithCallBack('playerName', function (value) {
+        document.getElementById('userNameInHelp').value = value;
+        NavigateToInternalPage("#HelpAbout");
+    });
+}
+
+function UpdateUserName() {
+    SetItemInStorage("playerName", document.getElementById("userNameInHelp").value);    
+}
+
 var currentSelect = undefined;
 
 function playerValueChangedInGame(select) {
@@ -40,10 +51,12 @@ function Settings_Reset() {
 }
 
 function ResetData() {
-    defaultSetting = 2;
-    ClearStorageWithCallBack(SetDefaultData);  
+    defaultSetting = 5;
     $("#Reset").popup("close");
     ClosePopup();
+    pageHistory = new Array();
+    NavigateToInternalPage("#Dashboard");
+    ClearStorageWithCallBack(SetDefaultData);      
 }
 
 function CloseReset() {

@@ -97,17 +97,17 @@
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="ShowSplashScreenSpinner" value="false" />
-    <plugin name="cordova-plugin-file" spec="~4.3.3" />
+    <plugin name="" spec="~4.3.3" />
     <plugin name="cordova-plugin-nativestorage" spec="~2.3.2" />
     <preference name="android-targetSdkVersion" value="26" />
-    <engine name="android" spec="5.2.1" />
-    <engine name="ios" spec="4.2.0" />
-    <engine name="windows" spec="4.4.2" />
     <plugin name="cordova-plugin-appcenter-analytics" spec="^0.1.8" />
     <plugin name="cordova-plugin-appcenter-crashes" spec="^0.1.8" />
     <platform name="android">
         <preference name="APP_SECRET" value="73019cb4-fe69-4056-836d-bd69f4ddd21f" />
-		<resource-file src="google-services.json" target="google-services.json" />
+        <resource-file src="google-services.json" target="google-services.json" />
     </platform>
     <plugin name="cordova-plugin-appcenter-push" spec="^0.1.8" />
+    <engine name="android" spec="5.2.1" />
+    <engine name="ios" spec="4.2.0" />
+    <engine name="windows" spec="4.4.2" />
 </widget>

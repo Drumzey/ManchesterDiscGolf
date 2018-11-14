@@ -42,15 +42,28 @@ function SetEndGameScores(savestats)
 		var currentName = 'name' + (i+1).toString();
 		var currentScore = 'score' + (i+1).toString();
 		
-		document.getElementById(currentName).innerText = name;
-		document.getElementById(currentScore).innerText = value;
+        document.getElementById(currentName).innerText = name;
+        //Need to append the actual par score on here
+
+        var underoverpar = '';
+        if (currentCourseType === 'red')
+            underoverpar = value - coursePar.reduce((a, b) => a + b, 0);
+        else
+            underoverpar = value - courseParBlue.reduce((a, b) => a + b, 0);
+
+        if (underoverpar > 0)
+            underoverpar = '+' + underoverpar;
+        else if (underoverpar === 0)
+            underoverpar = 'Par';
+
+        document.getElementById(currentScore).innerText = underoverpar + ' (' + value + ')';
 	}	
 	
     //make sure all are visible
 	for (i = 0; i < 4; i++) {
 	    var rowId = 'row' + (i + 1).toString();
 	    var row = document.getElementById(rowId);
-	    row.style.display = 'table-row'	    
+        row.style.display = 'table-row';	    
 	}
 
     //hide the ones not used

@@ -5,7 +5,7 @@
     SetDefaultData();    
 }
 
-var defaultSetting = 4;
+var defaultSetting = 5;
 
 function Success() {    
     defaultSetting--;
@@ -50,4 +50,13 @@ function SetDefaultData() {
             }
         }
     );    
+
+    GetItemFromStorageWithSuccessAndFailureCallBack('mymeetups', Success,
+        function (err) {
+            if (err.code == 2) {
+                SetItemInStorageWithCallBack('mymeetups', [], Success);
+            }
+        }
+    );    
+    
 }
